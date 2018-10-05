@@ -7,7 +7,7 @@
     4   Delta-alpha (fadeout speed, < 0)
 */
 var _o;
-_o = instance_create(x+argument1,y+argument2,objScrollText)
+_o = instance_create_depth(x+argument1,y+argument2,999,objScrollText)
 _o.text = argument0
 _o.value = 1.5
 _o.delta = -0.1

@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "050bbf7f-25ef-44ff-881a-74f5c97b5153",
+            "Value": {
+                "id": "a46be92a-eea9-4c18-97b6-c0c98338b8e6",
+                "resourcePath": "scripts\\scrTextFloat\\scrTextFloat.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "05c46017-fc57-4261-a811-491671c882d0",
             "Value": {
                 "id": "7dd7ba6b-6784-4031-a6a6-c54664ce3ad0",
@@ -52,6 +60,14 @@
                 "id": "cfd349e0-ec42-4d8f-892d-7204a7a2065c",
                 "resourcePath": "views\\2d8aef25-b146-48cc-94b0-a6fa835fd5dc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "36a5e077-1574-450b-aaed-a5499efe4a7e",
+            "Value": {
+                "id": "a143a2bd-bc27-45cf-b749-2c84e5a5ad64",
+                "resourcePath": "scripts\\scrDrawText\\scrDrawText.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -84,6 +100,14 @@
                 "id": "b81477bf-45e8-4827-95d7-0d672bdf3b29",
                 "resourcePath": "views\\447af32e-a70a-4689-99b1-a63008f7cd7b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4489bd22-427a-4c91-ba93-7e72dd885443",
+            "Value": {
+                "id": "7aa634ce-3bf9-4b53-be37-436167da5461",
+                "resourcePath": "scripts\\scrSpawnObjects\\scrSpawnObjects.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -151,6 +175,14 @@
             }
         },
         {
+            "Key": "b8711e9a-4a0c-4470-b971-c66e67e29e84",
+            "Value": {
+                "id": "4a225eab-dd0a-430b-b694-7c9df285a6d9",
+                "resourcePath": "views\\b8711e9a-4a0c-4470-b971-c66e67e29e84.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "925fe280-ac78-486f-8af7-2a971989751a",
@@ -189,10 +221,20 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "fd156d50-ea90-444f-9e6f-5016689fd721",
+            "Value": {
+                "id": "0ea64142-8fc1-43cd-9b43-39f95843776a",
+                "resourcePath": "objects\\objScrollText\\objScrollText.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
-        
+        "4489bd22-427a-4c91-ba93-7e72dd885443",
+        "36a5e077-1574-450b-aaed-a5499efe4a7e",
+        "050bbf7f-25ef-44ff-881a-74f5c97b5153"
     ],
     "tutorial": ""
 }
